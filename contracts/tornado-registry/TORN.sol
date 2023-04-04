@@ -4,14 +4,14 @@ pragma solidity ^0.6.0;
 pragma experimental ABIEncoderV2;
 
 import "./interfaces/IERC20.sol";
-import "./lib/ERC20.sol";
-import "./lib/ERC20Burnable.sol";
-import "./lib/SafeERC20.sol";
-import "./lib/Ownable.sol";
-import "./lib/Pausable.sol";
-import "./lib/Math.sol";
-import "./lib/ERC20Permit.sol";
-import "./lib/ENS.sol";
+import "./libs/ERC20.sol";
+import "./libs/ERC20Burnable.sol";
+import "./libs/SafeERC20.sol";
+import "./libs/Ownable.sol";
+import "./libs/Pausable.sol";
+import "./libs/Math.sol";
+import "./libs/ERC20Permit.sol";
+import "./libs/ENS.sol";
 
 contract TORN is
     ERC20("TornadoCash", "TORN"),

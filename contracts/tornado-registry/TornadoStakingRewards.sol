@@ -3,11 +3,11 @@
 pragma solidity ^0.6.12;
 pragma experimental ABIEncoderV2;
 
-import {IERC20} from "./interfces/IERC20.sol";
-import {SafeMath} from "./lib/SafeMath.sol";
-import {SafeERC20} from "./lib/SafeERC20.sol";
-import {Initializable} from "./lib/Initializable.sol";
-import {EnsResolve} from "./lib/ENS.sol";
+import {IERC20} from "./interfaces/IERC20.sol";
+import {SafeMath} from "./libs/SafeMath.sol";
+import {SafeERC20} from "./libs/SafeERC20.sol";
+import {Initializable} from "./libs/Initializable.sol";
+import {EnsResolve} from "./libs/ENS.sol";
 import {ITornadoGovernance} from "./interfaces/ITornadoGovernance.sol";
 
 /**

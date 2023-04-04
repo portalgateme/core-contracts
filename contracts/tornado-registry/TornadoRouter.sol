@@ -4,10 +4,10 @@ pragma solidity >=0.6.0 <0.8.0;
 pragma experimental ABIEncoderV2;
 
 import "./interfaces/IERC20.sol";
-import "./lib/SafeERC20.sol";
-import "./lib/Math.sol";
+import "./libs/SafeERC20.sol";
+import "./libs/Math.sol";
 import "./interfaces/ITornadoInstance.sol";
-import "./lib/ENS.sol";
+import "./libs/ENS.sol";
 import "./InstanceRegistry.sol";
 import "./RelayerRegistry.sol";
 

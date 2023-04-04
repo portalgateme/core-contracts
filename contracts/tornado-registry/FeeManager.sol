@@ -3,12 +3,12 @@
 pragma solidity ^0.6.12;
 pragma experimental ABIEncoderV2;
 
-import {UniswapV3OracleHelper} from "../lib/UniswapV3OracleHelper.sol";
-import {SafeMath} from "./lib/SafeMath.sol";
-import {EnsResolve} from "./lib/ENS.sol";
+import {UniswapV3OracleHelper} from "./libs/UniswapV3OracleHelper.sol";
+import {SafeMath} from "./libs/SafeMath.sol";
+import {EnsResolve} from "./libs/ENS.sol";
 
 import "./interfaces/IERC20.sol";
-import "./interfaces/IERC20/ITornadoInstance.sol";
+import "./interfaces/ITornadoInstance.sol";
 import "./InstanceRegistry.sol";
 
 /// @dev contract which calculates the fee for each pool
@@ -41,10 +41,10 @@ contract FeeManager is EnsResolve {
         int256 deviation; // in 10**-1 percents, so it can be like -2.3% if the price of TORN declined
     }
 
-    constructor(address _torn, address _governance, bytes32 _registry) public {
+    constructor(address _torn, address _governance, address _registry) public {
         torn = _torn;
         governance = _governance;
-        registry = InstanceRegistry(resolve(_registry));
+        registry = InstanceRegistry(_registry);
     }
 
     /**

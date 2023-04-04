@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "lockedBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"lockedBalance(address)": {
+					"notice": "Locked token balance for each account"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"libs/Core.sol": "Core"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"libs/Core.sol": {
+			"keccak256": "0x00172b7000898ba28308727f1b962496c6c7a1e517892f3b345a6b959811db12",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c7d71c01be5f451c950ffe816388c818db10648570483391f855c1c3b7f5de64",
+				"dweb:/ipfs/QmZAn2GfBHFj5G7gK1nCsF5VTTdZiW9AMmBarKVQZJtCFG"
+			]
+		}
+	},
+	"version": 1
+}

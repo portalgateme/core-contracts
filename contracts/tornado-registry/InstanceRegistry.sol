@@ -3,10 +3,10 @@
 pragma solidity ^0.6.12;
 pragma experimental ABIEncoderV2;
 
-import {Initializable} from "./lib/Initializable.sol";
-import {EnsResolve} from "./lib/ENS.sol";
+import {Initializable} from "./libs/Initializable.sol";
+import {EnsResolve} from "./libs/ENS.sol";
 import "./interfaces/IERC20.sol";
-import "./lib/SafeERC20.sol";
+import "./libs/SafeERC20.sol";
 import "./interfaces/ITornadoInstance.sol";
 import "./FeeManager.sol";
 import "./TornadoRouter.sol";

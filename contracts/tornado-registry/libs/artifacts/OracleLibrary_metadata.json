@@ -1,0 +1,135 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"title": "Oracle library",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Provides functions to integrate with V3 pool oracle",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"libs/OracleLibrary.sol": "OracleLibrary"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interfaces/IUniswapV3Pool.sol": {
+			"keccak256": "0xc16e1dd34a8e00e5b82308da9ecc9d0459c12d51ffa65fd76c32433034e33d21",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://f94ce5becc71a872a3a15727224652fbef8fa6ea12d9a89d2a039fd6b2f198ac",
+				"dweb:/ipfs/QmaXgiLB7qo6PeEmWrXNEwRdJjpE6sGhL8cSjyd2kmAQau"
+			]
+		},
+		"interfaces/IUniswapV3PoolActions.sol": {
+			"keccak256": "0xea174a246cfcb0c91c0dca979daffbb63d6772c342209e6c9f56031e5cf732a8",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://7c495d20d1e7f6d922c276ade871feab10989872a28d6e6ad4000d4e8e1199bc",
+				"dweb:/ipfs/Qmb2LNuJcbwPhHBnMz4qYmn16jy4so6JRCtNJqqbx9zTgS"
+			]
+		},
+		"interfaces/IUniswapV3PoolDerivedState.sol": {
+			"keccak256": "0x9d037ba7d5ea2f76b2e985dd43e48137352ede5ff990e62c3bd13ead2f546812",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://9f3b42f0f9c41b0d7bf1b1db94e14041a70101fdd5eadceed0059721ddd6ce0c",
+				"dweb:/ipfs/QmcWYfC5NtATR6k9Bjb14AvuFbLHRkEn3EgD21EokXz9Nw"
+			]
+		},
+		"interfaces/IUniswapV3PoolEvents.sol": {
+			"keccak256": "0x788fc30fd37301a80b58d661cf8825c4c3b302eccb11cfc294aade78cf4dbba0",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://808f6dd0f83a4b482b8b0a9602339468ec16bb10a853de6b1f3e11679a0e0e1b",
+				"dweb:/ipfs/QmaC34Bwfvhg1iEFdt3U7eMfnYG63DmokKyVeGMQEbtgN7"
+			]
+		},
+		"interfaces/IUniswapV3PoolImmutables.sol": {
+			"keccak256": "0x6b0e227bf2220692719264a5d6dbb3d89d70bf4ede0caa847f93d43e211c84cf",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://23acd2737330a46ca829965ea1f84bf88efc127c33c863e8a0e59ad385d3f969",
+				"dweb:/ipfs/QmUUAebjtkV6D2RGjserqpM255P8YuZVpv3ktQpuNwJW3a"
+			]
+		},
+		"interfaces/IUniswapV3PoolOwnerActions.sol": {
+			"keccak256": "0x1e18135fc7a098b9e8ce8d6d971563ba3adcb67f8c6921e73435db7c77c6d7b5",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://9a8264a8e3ae8e904c827644fe53439f7d708c63ba4eedf4c0c20d5550119548",
+				"dweb:/ipfs/QmYNkrjf8FsMhx7DjUZ1YA7CXVvjA4JGiq3SARPwT13nPu"
+			]
+		},
+		"interfaces/IUniswapV3PoolState.sol": {
+			"keccak256": "0xa54d95d153fc1ab7c4eb640a347f906c12aebde396eedf8bde7c2e8d6ce7d05b",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://46c16fc607b0de9a1632d6cdb377a0bea0e756c57308aedc66926644a610a350",
+				"dweb:/ipfs/QmSMQyYNuRxz1wDjG9LRxQxbKwX9WDXGHuQJj3SVyhRE6g"
+			]
+		},
+		"libs/FullMath.sol": {
+			"keccak256": "0xfb6065c70131c22da0c74508b322547463bcf632a277aafd19f544a0fa2efe5e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://84b2bd294cb9e4ddd4c1e09b2cb7278b468ed60b58237bed07491d9036eb7c20",
+				"dweb:/ipfs/QmfVJbRcyHWiitZxCxZnP9JMP9EqNfrngT9MXx5FKmJw5L"
+			]
+		},
+		"libs/LowGasSafeMath.sol": {
+			"keccak256": "0xc6b6f0d5eda81b317cf9453afbfaa94f72c96f661a31434000986536002de0b4",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://fc78bb895b2b860e79a90f3f267d2c7b30b1d70e17282cdc0b67e36e828a5818",
+				"dweb:/ipfs/QmYaP9EFAuA5dxZ9qe5EabMoid3EcHJoWxdTJcKFF2ooTQ"
+			]
+		},
+		"libs/OracleLibrary.sol": {
+			"keccak256": "0x18c815cc501206d966dd4f8ce4cbe8cacce4995427399065c5f869da683a4803",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://74a9458a3c1f27c88dff113f8442bb458c8ba9df35b080242edc5f805a8e1169",
+				"dweb:/ipfs/QmSaatzrXiPCKbUMTNTcgztn57nFLLi24CV1mY5iVb2jnn"
+			]
+		},
+		"libs/PoolAddress.sol": {
+			"keccak256": "0x4af391f5b2799a6727a9c54347a96a09e24f0813fce6a1e8eb245fa3f41afafc",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://37840943ffe691ae9f97564b44d081ed02b55fbf3c6c28caa957547810303c20",
+				"dweb:/ipfs/QmZviWG7LSErtyj3nKgT8GszPhGkEwUeEEdRwAg14PzJa5"
+			]
+		},
+		"libs/TickMath.sol": {
+			"keccak256": "0x0ea8e491e0231104f5f5e503724744fee3f584b207f11a5aaf36dd704675ce3a",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://2addd86f7cc8f21ca57f681ad5eb4ac506a68b33af66b72232b49276a5ff1036",
+				"dweb:/ipfs/QmcjnMsmUcogxybKmHGpehTAAcBkuLC4G7Vmi92FdEzUgg"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"stateVariables": {
+				"MAX_SQRT_RATIO": {
+					"details": "The maximum value that can be returned from #getSqrtRatioAtTick. Equivalent to getSqrtRatioAtTick(MAX_TICK)"
+				},
+				"MAX_TICK": {
+					"details": "The maximum tick that may be passed to #getSqrtRatioAtTick computed from log base 1.0001 of 2**128"
+				},
+				"MIN_SQRT_RATIO": {
+					"details": "The minimum value that can be returned from #getSqrtRatioAtTick. Equivalent to getSqrtRatioAtTick(MIN_TICK)"
+				},
+				"MIN_TICK": {
+					"details": "The minimum tick that may be passed to #getSqrtRatioAtTick computed from log base 1.0001 of 2**-128"
+				}
+			},
+			"title": "Math library for computing sqrt prices from ticks and vice versa",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Computes sqrt price for ticks of size 1.0001, i.e. sqrt(1.0001^tick) as fixed point Q64.96 numbers. Supports prices between 2**-128 and 2**128",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"libs/TickMath.sol": "TickMath"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"libs/TickMath.sol": {
+			"keccak256": "0x0ea8e491e0231104f5f5e503724744fee3f584b207f11a5aaf36dd704675ce3a",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://2addd86f7cc8f21ca57f681ad5eb4ac506a68b33af66b72232b49276a5ff1036",
+				"dweb:/ipfs/QmcjnMsmUcogxybKmHGpehTAAcBkuLC4G7Vmi92FdEzUgg"
+			]
+		}
+	},
+	"version": 1
+}

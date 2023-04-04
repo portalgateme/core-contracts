@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawTorn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"interfaces/ITornadoVault.sol": "ITornadoVault"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interfaces/ITornadoVault.sol": {
+			"keccak256": "0x4cd0a70bd98ae5f172de3f19b2f4be6d6b8795948c4877b3f0d62fa6f5f5a235",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cacd8611152ff0410b79beeeac8180368f80f6ea457f6d64eb042a90f64136b8",
+				"dweb:/ipfs/QmaXEyaNKgprbFZfxtEiHxvPG3kxBgWA1axomyo9F3adGF"
+			]
+		}
+	},
+	"version": 1
+}
