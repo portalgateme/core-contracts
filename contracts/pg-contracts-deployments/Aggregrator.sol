@@ -5,5 +5,6 @@ pragma experimental ABIEncoderV2;
 
 import "./GovernanceAggregator.sol";
 import "./RelayerAggregator.sol";
+import "./libs/ENS.sol";
 
-contract Aggregator is GovernanceAggregator, RelayerAggregator {}
+contract Aggregator is EnsResolve, GovernanceAggregator, RelayerAggregator {}
