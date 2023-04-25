@@ -1,1 +1,18 @@
-# core-contracts
+# tornadocash relayer / governance / token core-contracts
+
+* Goerli Testnet
+
+| Contract        | Address|
+| --------------  | ------------------------------------------------------------------------------------------|
+| Torn.sol        | [0xbe690bE6781188c8305D596c22D4d6b8DdED40D7](https://goerli.etherscan.io/address/0xbe690bE6781188c8305D596c22D4d6b8DdED40D7)                                                                                                                                                       |
+| TornadoVault.sol | [0xb2cc4757778dcab2C85e5F9d8dd834433259259E](https://goerli.etherscan.io/address/0xb2cc4757778dcab2C85e5F9d8dd834433259259E)                                                                                                                                                       |
+| GasCompensationVault.sol  | [0xbc9fD8356d96b1917C9ba18EeC505fd398d34b80](https://goerli.etherscan.io/address/0xbc9fD8356d96b1917C9ba18EeC505fd398d34b80)                                                                                                                                                       |
+| GovernanceStakingUpgrade.sol        | [0xBA866f85278c1D346593D7c2528a91fC3360869e](https://goerli.etherscan.io/address/0xBA866f85278c1D346593D7c2528a91fC3360869e)                                                                                                                                                       |
+| Governance.sol  | [0x3693613691f3a710786cf1b8DB80b358342ebBeD](https://goerli.etherscan.io/address/0x3693613691f3a710786cf1b8DB80b358342ebBeD)                                                                                                                                                       |
+| TornadoRouter.sol (with relayer)     | [0x361F697a7d3AD9299a5FfcE7d8a3C81059dc98f3](https://goerli.etherscan.io/address/0x361F697a7d3AD9299a5FfcE7d8a3C81059dc98f3)                                                                                                                                                       |
+| ens-registry    | [0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e](https://goerli.etherscan.io/address/0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e)                                                                                                                                                       |
+| InstanceRegistry.sol    | [0x2ff1f377b13d10C5c2C6D5B02A82F4d2d3bAE2B6](https://goerli.etherscan.io/address/0x2ff1f377b13d10C5c2C6D5B02A82F4d2d3bAE2B6)                                                                                                                                                       |
+| FeeManager.sol   | [0x5ec5be06e11AE33d7F4572f62AD75Cc1194F4fe1](https://goerli.etherscan.io/address/0x5ec5be06e11AE33d7F4572f62AD75Cc1194F4fe1)                                                                                                                                                       |
+| TornadoStakingRewards.sol | [0xD83cF8B6EBb40708E6Cc9bF8764C09df5eD2e4B0](https://goerli.etherscan.io/address/0xD83cF8B6EBb40708E6Cc9bF8764C09df5eD2e4B0)                                                                                                                                                       |
+| RelayerRegistry.sol       | [0x099BAAEb4DA81Ef5719A95046690C8303F2d164C](https://goerli.etherscan.io/address/0x099BAAEb4DA81Ef5719A95046690C8303F2d164C)                                                                                                                                                       |
+| Aggregrator.sol    | [0x277411dc90d41dFE562f3BF2091df66Bf0584602](https://goerli.etherscan.io/address/0x277411dc90d41dFE562f3BF2091df66Bf0584602)                                                                                                                                                       |
